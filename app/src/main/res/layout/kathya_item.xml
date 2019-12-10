@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+    <TextView
+        android:id="@+id/textview_amount_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/textview_name_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/textview_amount_item"
+        android:text="Empty item"
+        android:layout_marginStart="8dp"
+        android:textSize="30sp"
+        android:layout_marginLeft="8dp" />
+
+
+</LinearLayout>
